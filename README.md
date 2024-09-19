@@ -51,8 +51,8 @@ Create a .env file in the root directory and add your API keys, database credent
 
 ```bash
 NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
-NEXT_PUBLIC_YELP_API_KEY=your_yelp_api_key
 ```
+
 4.  **Run the development server:**
 
 ```bash
@@ -77,8 +77,7 @@ The app will be available at http://localhost:3000.
 
 ### Frontend:
 - Next.js
-- Google Maps API
-- Yelp API
+- OpenStreetMap API
 
 ### Backend:
 - Node.js
