@@ -1,6 +1,6 @@
-# FoodFinder
+# SnackSesh
 
-![FoodFinder Logo](https://github.com/DylanPalin/FoodFinder/blob/main/Logo/FoodFinder%20Logo.png?raw=true)
+![SnackSesh Logo](https://github.com/DylanPalin/SnackSesh/blob/main/Logo/SnackSesh%20Logo.png?raw=true)
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@
 
 ## Overview
 
-**FoodFinder** is a web application designed to help users find nearby restaurants based on their dietary preferences, weekly food deals, budget, and location. Whether you're looking for wing wednesday with vegan options, gluten-free pizza night, or simply a cheap place to eat, FoodFinder aims to simplify your search for the perfect meal.
+**SnackSesh** is a web application designed to help users find nearby restaurants based on their dietary preferences, weekly food deals, budget, and location. Whether you're looking for wing wednesday with vegan options, gluten-free pizza night, or simply a cheap place to eat, SnackSesh aims to simplify your search for the perfect meal.
 
 ## Features
 
@@ -35,8 +35,8 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/FoodFinder.git
-cd FoodFinder
+git clone https://github.com/yourusername/SnackSesh.git
+cd SnackSesh
 ```
 
 2. **Install dependencies:**
