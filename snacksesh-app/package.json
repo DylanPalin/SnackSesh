@@ -7,8 +7,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "main": "node --loader ts-node/esm src/main.mts",
     "lint": "next lint",
-    "fetch-restaurants": "node --loader ts-node/esm src/app/scripts/overpassQuery.ts"
+    "fetch-restaurants": "node --loader ts-node/esm src/app/scripts/overpassQuery.ts",
+    "codegen": "kysely-codegen --dialect postgres --camel-case --out-file ./src/utils/kysely-types.d.ts"
   },
   "dependencies": {
     "axios": "^1.7.7",
@@ -22,10 +24,12 @@
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/pg": "^8.11.10",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.12",
+    "ts-loader": "^9.5.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.2"
   }
