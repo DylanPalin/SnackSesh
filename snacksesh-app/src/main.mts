@@ -1,4 +1,4 @@
-import { db } from "./utils/db.mts";
+import { db } from "./utils/db";
 
 async function main() {
   

@@ -2,10 +2,9 @@
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
-    "allowImportingTsExtensions": true,
-    "noEmit": true,
     "skipLibCheck": true,
     "strict": true,
+    "noEmit": false,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
@@ -13,8 +12,6 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "outDir": "./dist",
-    "rootDir": "./src",
     "plugins": [
       {
         "name": "next"
@@ -24,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/utils/db.mts", "src/main.mts", "src/utils/kysely-types.d.mts", "src/types.mts", "src/**/*"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/utils/db.ts", "src/main.mts", "src/utils/kysely-types.d.ts", "src/types.mts", "next.config.mts"],
   "exclude": ["node_modules"]
 }
