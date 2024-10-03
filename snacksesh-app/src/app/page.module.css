@@ -16,6 +16,16 @@
   font-family: var(--font-geist-sans);
 }
 
+.appLogo {
+  font-family: var(--font-imbue, "Imbue", serif);
+  font-size: 5rem;
+  line-height: 5rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: white;
+  margin-bottom: 8px;
+}
+
 @media (prefers-color-scheme: dark) {
   .page {
     --gray-rgb: 255, 255, 255;
