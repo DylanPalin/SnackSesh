@@ -14,17 +14,6 @@ body {
   min-height: 100vh;
 }
 
-.foodNav {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: var(--navbar-bg);
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -44,6 +33,39 @@ body {
 
 .profileButton:hover {
   background-color: rgba(255, 255, 255, 0.4);
+}
+
+.foodNav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  background: var(--navbar-bg);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.foodNav.slide-up {
+  transform: translate(-50%, -50%) translateY(-100%);
+  opacity: 0;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  opacity: 1;
+  transform: translateY(20px);
+}
+
+.results.slide-down {
+  transform: translateY(100%);
+  opacity: 0;
 }
 
 @media (prefers-color-scheme: dark) {
